@@ -1,0 +1,8 @@
+# .dockerignore for the commit-image build: bake in the FULL repo, including .git history (the
+# grader uses it); drop only local build outputs. Patterns are root-anchored so upstream's tracked
+# `build/` source dirs (e.g. scripts/build/) stay in the image.
+node_modules/
+**/node_modules/
+mayhem/build-fuzz/
+mayhem/build-tests/
+.DS_Store

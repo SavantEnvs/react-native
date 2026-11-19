@@ -1,0 +1,1 @@
+{"id": 2, "method": "Debugger.setBreakpointByUrl", "params": {"lineNumber": 10, "url": "index.bundle", "columnNumber": 0}}

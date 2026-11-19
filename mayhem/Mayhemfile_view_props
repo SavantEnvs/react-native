@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: view_props
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/view_props/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/view_props
+    libfuzzer: true
+    timeout: 5

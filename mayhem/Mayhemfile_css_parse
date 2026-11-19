@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: css_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/css_parse/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/css_parse
+    libfuzzer: true
+    timeout: 5

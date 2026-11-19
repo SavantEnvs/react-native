@@ -1,0 +1,1 @@
+{"filter": [{"blur": 5}, {"dropShadow": {"offsetX": 1, "offsetY": 2, "standardDeviation": 3, "color": "red"}}], "boxShadow": [{"offsetX": 1, "offsetY": 2, "blurRadius": 3, "spreadDistance": 1, "color": "blue", "inset": true}], "transform": "rotate(45deg) scale(2)"}

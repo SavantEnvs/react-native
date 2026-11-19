@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: text_props
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/text_props/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/text_props
+    libfuzzer: true
+    timeout: 5

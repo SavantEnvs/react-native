@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: method_calls
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/method_calls/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/method_calls
+    libfuzzer: true
+    timeout: 5

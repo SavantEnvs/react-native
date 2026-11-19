@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: yoga_layout
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/yoga_layout/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/yoga_layout
+    libfuzzer: true
+    timeout: 5

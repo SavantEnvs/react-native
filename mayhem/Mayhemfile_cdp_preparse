@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: cdp_preparse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/cdp_preparse/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/cdp_preparse
+    libfuzzer: true
+    timeout: 5

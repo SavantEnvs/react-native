@@ -1,0 +1,1 @@
+{"filter": "blur(5px) brightness(0.5)", "boxShadow": "10px 5px 5px 0px rgba(0,0,0,.5)", "experimental_backgroundImage": "linear-gradient(to right, red, blue)", "transformOrigin": "left top 10px", "mixBlendMode": "multiply", "isolation": "isolate", "outlineColor": "red", "outlineWidth": 2, "outlineStyle": "dashed"}

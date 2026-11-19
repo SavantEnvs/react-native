@@ -1,0 +1,9 @@
+project: savantenvs/react-native
+target: mapbuffer_read
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mapbuffer_read/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/build-fuzz/mapbuffer_read
+    libfuzzer: true
+    timeout: 5

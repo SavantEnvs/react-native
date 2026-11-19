@@ -1,0 +1,1 @@
+{"id": 4, "method": "Tracing.start", "params": {"categories": "-*,devtools.timeline", "traceConfig": {"recordMode": "recordAsMuchAsPossible"}}}
